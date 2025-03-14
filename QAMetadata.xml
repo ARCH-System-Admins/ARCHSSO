@@ -1,40 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://washu--qa.sandbox.my.salesforce.com/" validUntil="2035-01-04T17:30:00.085Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://washu--qa.sandbox.my.salesforce.com/" validUntil="2035-03-12T02:23:16.921Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:KeyDescriptor use="signing">
          <ds:KeyInfo>
             <ds:X509Data>
-               <ds:X509Certificate>MIIEkzCCA3ugAwIBAgIOAZQ8o3F1AAAAAFDr4/AwDQYJKoZIhvcNAQELBQAwgYgx
-IDAeBgNVBAMMF1NlbGZTaWduZWRDZXJ0XzZKYW4yMDI0MRgwFgYDVQQLDA8wMERj
-ZjAwMDAwMG1WS3IxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1T
-YW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMB4XDTI1MDEw
-NjE3MjIxMVoXDTI2MDEwNjEyMDAwMFowgYgxIDAeBgNVBAMMF1NlbGZTaWduZWRD
-ZXJ0XzZKYW4yMDI0MRgwFgYDVQQLDA8wMERjZjAwMDAwMG1WS3IxFzAVBgNVBAoM
-DlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQI
-DAJDQTEMMAoGA1UEBhMDVVNBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
-AQEAr9r0WJEJfyKu6Vb63OpISiqvdxGdQ4XhJEkxl6eITVN/XMb3kaJcbiNU5Zoh
-oVP8osvgyZ32a/MgbbxrKnmYupbpUJM+RrZj7B3K2rqekFAThtr/adUHaO6TSaZ2
-w5NTcqbI1OYQosWKFG3/+LFsWRnvd8D0NeJ8Paweu6mD8g0NEgTczO0vpWVjjPvJ
-JUAXyQkwwkZngqDJx9fgLJPv2TEdfutBlxG41dDe5QoOMbned1UyH56c0oPTueZw
-Lg5FBkSLDhP6tAU0sOco6erZhkD8p3jteCgIE/stvLKrykCOiMw1mgFkazCeS6uO
-j8EDr6J8qs4KT89cYOymjZIhqQIDAQABo4H4MIH1MB0GA1UdDgQWBBTXapJj4/Fg
-IWtm9H45fANyiKqc0TAPBgNVHRMBAf8EBTADAQH/MIHCBgNVHSMEgbowgbeAFNdq
-kmPj8WAha2b0fjl8A3KIqpzRoYGOpIGLMIGIMSAwHgYDVQQDDBdTZWxmU2lnbmVk
-Q2VydF82SmFuMjAyNDEYMBYGA1UECwwPMDBEY2YwMDAwMDBtVktyMRcwFQYDVQQK
-DA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UE
-CAwCQ0ExDDAKBgNVBAYTA1VTQYIOAZQ8o3F1AAAAAFDr4/AwDQYJKoZIhvcNAQEL
-BQADggEBAELbepI7kN7IwZ3sICi6ydUIl+YqEMNRTxHFDTbEJX0h9gP3IOH5Aw9l
-DZQIli93C7fH0De4ew5NDLy4uQOZahtDJ7Ri3Aa9vQUmD2dQu6iVJ7XdIZ6ekURJ
-PGstjQjeXBksZXxYPgiHv368yo/4mfT1r12qNF8ELdSR1uYSINF5a6O/u7KlPkD7
-jUJl+D8XNTbkqWgzgm8TK0oL1zxcC03rx6IdmYNlY9XtRXKcBLHnNC8WFqiuR/5H
-KzmtTXkSNlcR+qNkiTvIqHPC8Bw485IQUNX1+68fW0YGduBYKxZvyu0MLYOdhuqo
-r89eoex7+TS+OLS17FDHuhjss5azNkI=</ds:X509Certificate>
+               <ds:X509Certificate>MIIEljCCA36gAwIBAgIOAZWSdVujAAAAADzNz5cwDQYJKoZIhvcNAQELBQAwgYkx
+ITAfBgNVBAMMGFNlbGZTaWduZWRDZXJ0XzEzTWFyMjAyNTEYMBYGA1UECwwPMDBE
+RWswMDAwMExxWDNwMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwN
+U2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTAeFw0yNTAz
+MTQwMjIxNTlaFw0yNjAzMTQwMDAwMDBaMIGJMSEwHwYDVQQDDBhTZWxmU2lnbmVk
+Q2VydF8xM01hcjIwMjUxGDAWBgNVBAsMDzAwREVrMDAwMDBMcVgzcDEXMBUGA1UE
+CgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNV
+BAgMAkNBMQwwCgYDVQQGEwNVU0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQCsrLnoPC0phaTJRC80rW8ouvzl32CTvo72ZkHAEYTZIuP5BApRjvm8TdEk
++fYcTmv+cfc/bUYEfRofrA+m+wKdYcBB+y2E9q6i9j99SixGgjMW9CueQzlsfV2H
+5981AUgMIyDPlMlnrhlfBRlBXahalEMx/lJxff8UuwaKGXbxopGJ/DX/b+Wp25q4
+uEiDoCDSh/TJ0oLJrvujopYTXCe3KbIP9UJ++ySadM6d4UT1VW6IQhOoVgfkzv4f
+0HsvQHPaYMNpRqCVnqnGgr8QuyGWOWCD5v1uHYTAOzccXoFtMC7bSH4Cl33Wdrcb
+9cAV6zrs6Ug2IxlvZay5xkZl8hdXAgMBAAGjgfkwgfYwHQYDVR0OBBYEFHKb2bBw
+T6I4hVHXgc25zGdjTkoFMA8GA1UdEwEB/wQFMAMBAf8wgcMGA1UdIwSBuzCBuIAU
+cpvZsHBPojiFUdeBzbnMZ2NOSgWhgY+kgYwwgYkxITAfBgNVBAMMGFNlbGZTaWdu
+ZWRDZXJ0XzEzTWFyMjAyNTEYMBYGA1UECwwPMDBERWswMDAwMExxWDNwMRcwFQYD
+VQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkG
+A1UECAwCQ0ExDDAKBgNVBAYTA1VTQYIOAZWSdVujAAAAADzNz5cwDQYJKoZIhvcN
+AQELBQADggEBAD/n8IkJxmJ3Plq9S+nzPrXIqLP4iNNPvqf++ZpcMX2ztJk2D2ji
+/zOFxHRyF+tNxxuaUwGqIqENaNphKmuljtCpgtvJUsSI9w6Scf6vWtVyODLvVuJ5
+HJJ+jyqbW5cdUrSRTTSyjIVB04VGp0O2N32mqsJ5sSo/mcdCerlb/C/vHd2zAuns
+9Y5rWouQk8zbTCZucOt0BXxuopsMGm6TTEHqC2CSiA7tYa0KiIvCAS3Fk1mshaoe
+5XnyK9lfks/v+jo9b/Je3+lmUJ00FxYmCLwM2Y/dt4+7Sn/tHZ8kjmPl2YHVF3By
+rp+9vHyrBD2uvmqECBpAV+COROIS9y83h2g=</ds:X509Certificate>
             </ds:X509Data>
          </ds:KeyInfo>
       </md:KeyDescriptor>
       <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
       <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://washu--qa.sandbox.my.salesforce.com" index="0" isDefault="true"/>
-      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://washu--qa.sandbox.my.site.com/defaulthelpcenter10Aug/login" index="1"/>
-      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://washu--qa.sandbox.my.site.com/alumnicommunity/login" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://washu--qa.sandbox.my.site.com/alumnidirectory/login" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://washu--qa.sandbox.my.site.com/defaulthelpcenter10Aug/login" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://washu--qa.sandbox.my.site.com/alumnicommunity/login" index="3"/>
       <md:AttributeConsumingService index="0" isDefault="true">
          <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Salesforce.com</md:ServiceName>
          <md:RequestedAttribute Name="urn:oid:1.2.840.113556.1.4.221" isRequired="true"/>
